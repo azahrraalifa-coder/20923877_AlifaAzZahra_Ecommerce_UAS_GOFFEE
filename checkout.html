@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Checkout - Goffee</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Goffee</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="produk.html">Produk</a>
+      <a href="kontak.html">Kontak</a>
+      <a href="cart.html" class="cart-icon">🛒 <span id="cart-count">0</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Checkout</h2>
+    <form onsubmit="prosesCheckout(event)">
+      <label>Nama:</label>
+      <input type="text" required>
+      <label>Alamat:</label>
+      <textarea required></textarea>
+      <label>Nomor Telepon:</label>
+      <input type="text" required>
+      <label>Metode Pembayaran:</label>
+      <select>
+        <option>Transfer Bank</option>
+        <option>COD</option>
+        <option>E-Wallet</option>
+      </select>
+      <button type="submit">Proses Checkout</button>
+    </form>
+  </main>
+
+  <footer>
+    <div class="footer-top">
+      <h2>Goffee</h2>
+      <p>Biji kopi berkualitas untuk penikmat kopi sejati.</p>
+      <nav class="footer-nav">
+        <a href="index.html">Home</a> |
+        <a href="produk.html">Produk</a> |
+        <a href="kontak.html">Kontak</a> |
+        <a href="cart.html">Keranjang</a>
+      </nav>
+    </div>
+    <div class="footer-contact">
+      <p>Email: goffee@gmail.com | Telp: 088901416353</p>
+      <p>Alamat: Jalan Karasak Utara Dalam III No.47</p>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 Goffee. All Rights Reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>

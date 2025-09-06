@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Katalog Produk - Goffee</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <header>
+    <div class="brand">
+      <h1>Goffee</h1>
+      <p class="tag">Biji kopi berkualitas untuk penikmat kopi sejati.</p>
+    </div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="produk.html">Produk</a>
+      <a href="kontak.html">Kontak</a>
+      <a href="cart.html" class="cart-icon">🛒 <span id="cart-count">0</span></a>
+    </nav>
+  </header>
+
+  <main class="produk-section">
+    <h2>Katalog Produk</h2>
+    <div class="produk-list">
+      <!-- Produk 1 -->
+      <article class="produk-card">
+        <img src="images/beans1.jpg" alt="Ethiopian Yirgacheffe">
+        <h3>Ethiopian Yirgacheffe</h3>
+        <p>Coffee beans dengan aroma floral dan fruity, cocok untuk manual brew.</p>
+        <p class="price">Rp 150.000 / 250g</p>
+        <button onclick="tambahKeranjang('Ethiopian Yirgacheffe','150000','images/beans1.jpg')">Beli</button>
+      </article>
+
+      <!-- Produk 2 -->
+      <article class="produk-card">
+        <img src="images/beans2.jpg" alt="Colombian Supremo">
+        <h3>Colombian Supremo</h3>
+        <p>Beans dengan rasa balanced & nutty, cocok untuk espresso dan filter.</p>
+        <p class="price">Rp 130.000 / 250g</p>
+        <button onclick="tambahKeranjang('Colombian Supremo','130000','images/beans2.jpg')">Beli</button>
+      </article>
+
+      <!-- Produk 3 -->
+      <article class="produk-card">
+        <img src="images/beans3.jpg" alt="Brazil Santos">
+        <h3>Brazil Santos</h3>
+        <p>Beans smooth & chocolatey, body medium dan aftertaste manis.</p>
+        <p class="price">Rp 120.000 / 250g</p>
+        <button onclick="tambahKeranjang('Brazil Santos','120000','images/beans3.jpg')">Beli</button>
+      </article>
+
+      <!-- Produk 4 -->
+      <article class="produk-card">
+        <img src="images/beans4.jpg" alt="Sumatra Mandheling">
+        <h3>Sumatra Mandheling</h3>
+        <p>Beans earthy & full-bodied khas Sumatra, cocok untuk tubruk dan espresso.</p>
+        <p class="price">Rp 140.000 / 250g</p>
+        <button onclick="tambahKeranjang('Sumatra Mandheling','140000','images/beans4.jpg')">Beli</button>
+      </article>
+
+      <!-- Produk 5 -->
+      <article class="produk-card">
+        <img src="images/beans5.jpg" alt="Kenya AA">
+        <h3>Kenya AA</h3>
+        <p>Beans dengan acidity cerah dan rasa berry segar, cocok untuk filter brew.</p>
+        <p class="price">Rp 160.000 / 250g</p>
+        <button onclick="tambahKeranjang('Kenya AA','160000','images/beans5.jpg')">Beli</button>
+      </article>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-top">
+      <h2>Goffee</h2>
+      <p>Biji kopi berkualitas untuk penikmat kopi sejati.</p>
+      <nav class="footer-nav">
+        <a href="index.html">Home</a> |
+        <a href="produk.html">Produk</a> |
+        <a href="kontak.html">Kontak</a> |
+        <a href="cart.html">Keranjang</a>
+      </nav>
+    </div>
+    <div class="footer-contact">
+      <p>Email: goffee@gmail.com | Telp: 088901416353</p>
+      <p>Alamat: Jalan Karasak Utara Dalam III No.47</p>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 Goffee. All Rights Reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
